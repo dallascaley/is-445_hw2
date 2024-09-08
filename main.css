@@ -1,0 +1,120 @@
+body {
+  font-family: Calibri, Helvetica;
+  background-color: rgb(70, 53, 31);
+}
+
+p {
+  /* Instructions say to use Calibri or Helvetica font however
+     the whole concept of CSS is that it's cascading so there is
+     no need for this explicit definition because the body already
+     uses those fonts */
+    color: black; /* This line placed to remove the 'Do not use empty rulesets' warning */
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Courier New';
+  color: red;
+}
+
+img {
+  display: block;
+  width: 400px;
+  margin: auto;
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+#main-content {
+  width: 70%;
+  margin:auto;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+ul {
+  list-style-type:square;
+}
+
+ul li::marker {
+  color: purple;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+.categories {
+  font-size: 34px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.categories li {
+  color: grey;
+}
+
+.categories li:hover {
+  font-size: 40px;
+  color: black;
+}
+
+.commitment li {
+  float: left;
+  text-decoration: none;
+  width:25%;
+  background-color: purple;
+  height: 95px;
+  margin:30px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+h4 {
+  clear:left;
+}
+
+table tr td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:hover {
+  background-color: lightblue;
+}
+
+.button {
+  color: red;
+  margin:40px;
+  font-size: 30px;
+}
+
+.wasteoftime {
+  color: green;
+  margin: 40px;
+  font-size: 30px;
+}
+
+input[type=submit] {
+  color: green;
+}
+
+input[type=submit]:hover {
+  color: red;
+}

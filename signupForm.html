@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit me to the FBI watchlist</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="main-content">
+    <h2>Just give us all of your information...</h2>
+    <a href="index.html">I can't handle the truth!</a>
+    <br><br>
+    <form action="index.html">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullname" name="fullname">
+      <br>
+      <label for="password">Password to your bank account</label>
+      <input type="password">
+      <br>
+      <div>Mostly likely reason to die:</div>
+      <input type="radio" id="html" name="death" value="zombie">
+      <label for="html">Zombie Applocalypse</label><br>
+      <input type="radio" id="css" name="death" value="virus">
+      <label for="css">Flesh Eating Virus</label><br>
+      <input type="radio" id="javascript" name="death" value="vampires">
+      <label for="javascript">Vampires</label>
+
+      <div>Check all that apply:</div>
+      <input type="checkbox" id="open" name="nihilistic" value="possible"/>
+      <label for="nihilistic">It's too late, we must destroy everything so that anything can survive</label>
+      <br>
+      <input type="checkbox" id="open" name="cannibal" value="true"/>
+      <label for="cannibal">I will eat human flesh if necessary</label>
+
+      <div>Select the option that best fits your scenario</div>
+      <select name="scenario" id="whatever" multiple>
+        <option value="nukes">The nukes are on thier way, expedite this shipment</option>
+        <option value="bitten">I have already been infected</option>
+        <option value="detonate">This message will self-destruct in 5. 4.</option>
+        <option value="brawndo">Brawndo has what plants crave!</option>
+      </select>
+
+      <div>Please estimate date of pending destruction</div>
+      <input type="date" id="doomsday" name="estimate" value="2025-07-22" min="1635-01-01" max="2248-12-31" />
+      <input type="submit">
+    </form>
+    <h4>This will go on your permanent record</h4>
+  </div>
+</body>
+</html>
